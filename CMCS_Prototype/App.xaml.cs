@@ -1,21 +1,8 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
 
-namespace CMCS_Prototype
+namespace Assignment_part_2
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
-        protected override void OnStartup(StartupEventArgs e)
-        {
-            base.OnStartup(e);
-            // Start with Lecturer Dashboard
-            LecturerDashboard lecturerDashboard = new LecturerDashboard();
-            lecturerDashboard.Show();
-        }
     }
-
 }
