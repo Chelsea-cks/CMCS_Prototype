@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+﻿<Window x:Class="Assignment_part_2.Views.MainWindow"
+=======
+﻿<Window x:Class="CMCS_Prototype.Views.MainWindow"
+>>>>>>> 6a6969f1d4f065001ef1b3d9415577ca1af45acc
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CMCS Prototype" Height="350" Width="525"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Welcome to CMCS Prototype!" 
+                       FontSize="20" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+            <Button Content="Go to Login" Width="120" Height="40"
+                    Click="GoToLogin_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

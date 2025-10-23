@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+﻿<Window x:Class="Assignment_part_2.Views.LecturerDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lecturer Dashboard" Height="400" Width="600"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Lecturer Dashboard" FontSize="20" Margin="0,0,0,20"/>
+            <Button Content="Submit Claim" Width="150" Margin="0,0,0,10" Click="SubmitClaim_Click"/>
+            <Button Content="View Claims" Width="150" Margin="0,0,0,10" Click="ViewClaims_Click"/>
+            <Button Content="Logout" Width="150" Click="Logout_Click"/>
+=======
+﻿<Window x:Class="CMCS_Prototype.Views.LecturerDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lecturer Dashboard"
+        Height="300" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="Welcome, Lecturer!" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Button Content="Submit Claim" Click="SubmitClaim_Click" Margin="0,10" Height="40"/>
+            <Button Content="View Claims" Click="ViewClaims_Click" Margin="0,10" Height="40"/>
+            <Button Content="Logout" Click="Logout_Click" Margin="0,10" Height="40"/>
+            
+>>>>>>> 6a6969f1d4f065001ef1b3d9415577ca1af45acc
+        </StackPanel>
+    </Grid>
+</Window>
